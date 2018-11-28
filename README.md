@@ -1,5 +1,5 @@
 # AutoHeadlight
-A tiny Arduino project to provide automatic headlight feature
+A tiny Arduino project to provide an automatic headlight feature
 
 This circuit/code will allow you to add an auto headlight feature to a car that does not have one.  Standard disclaimers apply: I am in no way responsible if you try to do this and screw up your car.  There are many ways to do this, but as a coder, I decided to use a programmable bit at the heart of it.  The circuit turns on the headlights whenever the ambient light level falls below a programmed level.  I had a second goal, which is to indepentdently control the dimming of my navigation screen, so I added a second output to control the nav illumination.  If you don't need this feature, just don't wire it up.  This write up is not extremely detailed, but I hope it provides enough info if you want to attempt it yourself.  If something is not clear, ask and I will try and respond.
 
